@@ -30,13 +30,13 @@ public class ClientConvertisseur {
 	    					System.out.println(temp1);
 	    					break;
 	    				case 4:
-							System.out.println("Combien voulez vous verser");
+							System.out.println("Entrer le montant a convertir");
 							temp = clavier.nextFloat();
 	    					temp1 = stub.dollarToDinar(temp);
 	    					System.out.println(temp1);
 	    					break;
 	    				case 5:
-							System.out.println("Combien voulez vous verser");
+							System.out.println("Entrer le montant a convertir");
 							temp = clavier.nextFloat();
 	    					temp1 = stub.dinarToDollar(temp);
 	    					System.out.println(temp1);
